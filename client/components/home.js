@@ -16,10 +16,7 @@ const Home = () => {
             <Route exact path="/dashboard/" component={() => <Dashboard />} />
             <Route exact path="/dashboard/main" component={() => <Main />} />
             <Route exact path="/dashboard/profile/:user" component={() => <Profile />} />
-          </Switch>
-          <div><Link to="/dashboard">Go To Root</Link></div>
-          <div><Link to="/dashboard/main">Go To Main</Link></div>
-          <div><Link to="/dashboard/profile/0355a3e9-4149-4e5d-b3a0-46e25687b070">Go To Profile</Link></div>          
+          </Switch>       
         </div>
       </div>
     </div>
