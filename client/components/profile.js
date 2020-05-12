@@ -8,7 +8,7 @@ const Profile = () => {
       <div с id="title">Profile</div> 
       <div с id="username">{ user }</div> 
       <Link to="/dashboard">Go To Root</Link>
-      <Link to="/dashboard/main">Go To Main</Link>
+      <Link to="/dashboard/main">Go To Main </Link>
     </div>
   )
 }
